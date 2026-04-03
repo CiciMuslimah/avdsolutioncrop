@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avd Solutions Crop</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <a class="logo" href="#"
+        ><div class="logo-icon"></div>
+        Avd Solutions Crop</a
+      >
+      <ul class="nav-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#press">Press</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" onclick="closeMenu()">About Us</a>
+      <a href="#products" onclick="closeMenu()">Products</a>
+      <a href="#press" onclick="closeMenu()">Press</a>
+      <a href="#careers" onclick="closeMenu()">Careers</a>
+      <a href="#contact" onclick="closeMenu()">Contact Us</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <h1>AVD<br />SOLUTIONS<br />CROP</h1>
+        <p>At your price business travel solution</p>
+        <div class="btn-group">
+          <span class="btn-text">Write to us</span>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-img-wrap">
+          <div class="city-art">
+            <svg
+              viewBox="0 0 420 380"
+              style="width: 100%; height: 100%"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#1a237e" />
+                  <stop offset="60%" stop-color="#283593" />
+                  <stop offset="100%" stop-color="#0d47a1" />
+                </linearGradient>
+              </defs>
+              <rect width="420" height="380" fill="url(#sky)" />
+              <rect
+                x="0"
+                y="180"
+                width="28"
+                height="200"
+                fill="rgba(0,0,0,0.55)"
+              />
+              <rect
+                x="8"
+                y="140"
+                width="12"
+                height="40"
+                fill="rgba(0,0,0,0.55)"
+              />
+              <rect
+                x="34"
+                y="130"
+                width="38"
+                height="250"
+                fill="rgba(0,0,0,0.50)"
+              />
+              <rect
+                x="80"
+                y="170"
+                width="22"
+                height="210"
+                fill="rgba(0,0,0,0.55)"
+              />
+              <rect
+                x="108"
+                y="100"
+                width="34"
+                height="280"
+                fill="rgba(0,0,0,0.45)"
+              />
+              <rect
+                x="148"
+                y="155"
+                width="26"
+                height="225"
+                fill="rgba(0,0,0,0.50)"
+              />
+              <rect
+                x="180"
+                y="80"
+                width="48"
+                height="300"
+                fill="rgba(0,0,0,0.42)"
+              />
+              <rect
+                x="234"
+                y="145"
+                width="28"
+                height="235"
+                fill="rgba(0,0,0,0.48)"
+              />
+              <rect
+                x="268"
+                y="110"
+                width="36"
+                height="270"
+                fill="rgba(0,0,0,0.44)"
+              />
+              <rect
+                x="310"
+                y="160"
+                width="24"
+                height="220"
+                fill="rgba(0,0,0,0.50)"
+              />
+              <rect
+                x="340"
+                y="120"
+                width="40"
+                height="260"
+                fill="rgba(0,0,0,0.45)"
+              />
+              <rect
+                x="386"
+                y="175"
+                width="34"
+                height="205"
+                fill="rgba(0,0,0,0.52)"
+              />
+              <rect
+                x="38"
+                y="138"
+                width="3"
+                height="3"
+                fill="rgba(251,191,36,0.9)"
+              />
+              <rect
+                x="44"
+                y="148"
+                width="3"
+                height="3"
+                fill="rgba(251,191,36,0.7)"
+              />
+              <rect
+                x="113"
+                y="108"
+                width="4"
+                height="4"
+                fill="rgba(251,191,36,0.9)"
+              />
+              <rect
+                x="185"
+                y="88"
+                width="4"
+                height="4"
+                fill="rgba(251,191,36,0.9)"
+              />
+              <rect
+                x="194"
+                y="102"
+                width="4"
+                height="4"
+                fill="rgba(251,191,36,0.7)"
+              />
+              <rect
+                x="273"
+                y="118"
+                width="4"
+                height="4"
+                fill="rgba(251,191,36,0.8)"
+              />
+              <rect
+                x="345"
+                y="128"
+                width="4"
+                height="4"
+                fill="rgba(251,191,36,0.8)"
+              />
+              <line
+                x1="0"
+                y1="355"
+                x2="420"
+                y2="318"
+                stroke="rgba(251,191,36,0.45)"
+                stroke-width="2"
+              />
+              <line
+                x1="0"
+                y1="363"
+                x2="420"
+                y2="332"
+                stroke="rgba(251,191,36,0.25)"
+                stroke-width="1.5"
+              />
+              <line
+                x1="0"
+                y1="370"
+                x2="420"
+                y2="350"
+                stroke="rgba(239,68,68,0.35)"
+                stroke-width="1.5"
+              />
+              <line
+                x1="0"
+                y1="376"
+                x2="420"
+                y2="362"
+                stroke="rgba(239,68,68,0.20)"
+                stroke-width="1"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="hero-dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section reveal" id="about">
+      <div class="about-imgs">
+        <div class="about-card blue">
+          <div class="lbl">ABOUT<br />US</div>
+        </div>
+        <div class="about-card city">
+          <svg
+            class="city-bg"
+            viewBox="0 0 200 180"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient id="cg1" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1e3a8a" />
+                <stop offset="100%" stop-color="#3b82f6" />
+              </linearGradient>
+            </defs>
+            <rect width="200" height="180" fill="url(#cg1)" />
+            <rect x="10" y="90" width="16" height="90" fill="rgba(0,0,0,0.5)" />
+            <rect
+              x="32"
+              y="65"
+              width="24"
+              height="115"
+              fill="rgba(0,0,0,0.45)"
+            />
+            <rect
+              x="64"
+              y="80"
+              width="14"
+              height="100"
+              fill="rgba(0,0,0,0.5)"
+            />
+            <rect
+              x="85"
+              y="45"
+              width="30"
+              height="135"
+              fill="rgba(0,0,0,0.4)"
+            />
+            <rect
+              x="125"
+              y="68"
+              width="22"
+              height="112"
+              fill="rgba(0,0,0,0.45)"
+            />
+            <rect
+              x="158"
+              y="55"
+              width="42"
+              height="125"
+              fill="rgba(0,0,0,0.4)"
+            />
+            <line
+              x1="0"
+              y1="168"
+              x2="200"
+              y2="155"
+              stroke="rgba(251,191,36,0.5)"
+              stroke-width="1.5"
+            />
+            <rect
+              x="38"
+              y="72"
+              width="3"
+              height="3"
+              fill="rgba(251,191,36,0.9)"
+            />
+            <rect
+              x="90"
+              y="52"
+              width="3"
+              height="3"
+              fill="rgba(251,191,36,0.8)"
+            />
+          </svg>
+        </div>
+        <div class="about-card wide city">
+          <svg
+            class="city-bg"
+            viewBox="0 0 400 140"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient id="cg2" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#f59e0b" />
+                <stop offset="40%" stop-color="#ef4444" />
+                <stop offset="75%" stop-color="#7c3aed" />
+                <stop offset="100%" stop-color="#1e3a8a" />
+              </linearGradient>
+            </defs>
+            <rect width="400" height="140" fill="url(#cg2)" />
+            <rect x="0" y="65" width="20" height="75" fill="rgba(0,0,0,0.38)" />
+            <rect
+              x="28"
+              y="45"
+              width="28"
+              height="95"
+              fill="rgba(0,0,0,0.33)"
+            />
+            <rect
+              x="64"
+              y="72"
+              width="18"
+              height="68"
+              fill="rgba(0,0,0,0.38)"
+            />
+            <rect
+              x="92"
+              y="35"
+              width="32"
+              height="105"
+              fill="rgba(0,0,0,0.30)"
+            />
+            <rect
+              x="133"
+              y="58"
+              width="24"
+              height="82"
+              fill="rgba(0,0,0,0.33)"
+            />
+            <rect
+              x="166"
+              y="28"
+              width="38"
+              height="112"
+              fill="rgba(0,0,0,0.28)"
+            />
+            <rect
+              x="215"
+              y="52"
+              width="26"
+              height="88"
+              fill="rgba(0,0,0,0.33)"
+            />
+            <rect
+              x="252"
+              y="68"
+              width="20"
+              height="72"
+              fill="rgba(0,0,0,0.38)"
+            />
+            <rect
+              x="282"
+              y="40"
+              width="30"
+              height="100"
+              fill="rgba(0,0,0,0.30)"
+            />
+            <rect
+              x="322"
+              y="62"
+              width="24"
+              height="78"
+              fill="rgba(0,0,0,0.35)"
+            />
+            <rect
+              x="358"
+              y="46"
+              width="42"
+              height="94"
+              fill="rgba(0,0,0,0.38)"
+            />
+            <line
+              x1="0"
+              y1="130"
+              x2="400"
+              y2="118"
+              stroke="rgba(251,191,36,0.5)"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="about-right">
+        <h2>
+          Never doubt that a small group of thoughtful, committed people can
+          change the world.
+        </h2>
+        <p>
+          Our endeavour has been to create world class travel and aviation
+          technology solutions. We believe in building strong partnerships with
+          our customers to ensure that we are able to deliver a robust and cost
+          efficient solution to them.
+        </p>
+        <div class="btn-group">
+          <span class="btn-text">Read more</span>
+          <button class="btn-circle">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products-section reveal" id="products">
+      <div class="products-grid">
+        <div class="products-label">
+          <div class="lbl">PRO<br />DUCTS</div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-cloud">☁</div>
+          <div class="product-logo" style="font-style: italic">CiTRiX</div>
+          <h3>Airline Solution</h3>
+          <p>
+            An innovative solution that helps airlines to effectively manage
+            customer complaints, feedback and queries. It integrates with the
+            airline website and acts as a CRM system.
+          </p>
+          <div class="book-demo">
+            <span>Book a demo</span>
+            <button
+              class="btn-circle"
+              style="width: 34px; height: 34px; font-size: 14px"
+            >
+              →
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-cloud">☁</div>
+          <div class="product-logo" style="font-weight: 800">GitHub</div>
+          <h3>Expense Management Solution</h3>
+          <p>
+            An easy to use business travel &amp; expense management solution
+            that helps automate travel booking and tracking of all expenses
+            using a single web based interface.
+          </p>
+          <div class="book-demo">
+            <span>Book a demo</span>
+            <button
+              class="btn-circle"
+              style="width: 34px; height: 34px; font-size: 14px"
+            >
+              →
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-cloud">☁</div>
+          <div class="product-logo">
+            <div
+              style="
+                width: 20px;
+                height: 20px;
+                background: #e53e3e;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 9px;
+                color: white;
+                font-weight: 900;
+              "
+            >
+              n
+            </div>
+            napster
+          </div>
+          <h3>Group Revenue Management</h3>
+          <p>
+            GroupRM is an innovative solution that helps airlines to effectively
+            control group traffic. It aids in increasing sales by enabling the
+            group analysts to better manage and optimize group sales.
+          </p>
+          <div class="book-demo">
+            <span>Book a demo</span>
+            <button
+              class="btn-circle"
+              style="width: 34px; height: 34px; font-size: 14px"
+            >
+              →
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-cloud">☁</div>
+          <div
+            class="product-logo"
+            style="font-weight: 600; letter-spacing: -0.3px"
+          >
+            Microsoft
+          </div>
+          <h3>Business Travel Management</h3>
+          <p>
+            A comprehensive business travel management solution that streamlines
+            travel planning, booking, and reporting for corporate clients with
+            real-time expense tracking.
+          </p>
+          <div class="book-demo">
+            <span>Book a demo</span>
+            <button
+              class="btn-circle"
+              style="width: 34px; height: 34px; font-size: 14px"
+            >
+              →
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-dots">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+      </div>
+    </section>
+
+    <!-- PRESS -->
+    <section class="press-section reveal" id="press">
+      <div class="press-left">
+        <h2>Infiniti software solutions plans global expansion</h2>
+        <p>
+          Infiniti software solutions, a Chennai based travel technology service
+          provider to corpo-rates, claims to be leading the space in India. The
+          company offers diverse solutions for the travel and aviation industry
+          such as SME tool, expense management, group revenue management,
+          business travel management, airline forecasting tool, and airline CRM
+          solution.
+        </p>
+        <div class="btn-group">
+          <span class="btn-text">Read more</span>
+          <button class="btn-circle">→</button>
+        </div>
+      </div>
+      <div class="press-imgs">
+        <div class="press-card blue"><div class="lbl">PRESS</div></div>
+        <div class="press-card city">
+          <svg
+            class="city-bg"
+            viewBox="0 0 200 150"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient id="pg1" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1e3a8a" />
+                <stop offset="100%" stop-color="#6366f1" />
+              </linearGradient>
+            </defs>
+            <rect width="200" height="150" fill="url(#pg1)" />
+            <rect x="10" y="75" width="16" height="75" fill="rgba(0,0,0,0.5)" />
+            <rect
+              x="34"
+              y="50"
+              width="24"
+              height="100"
+              fill="rgba(0,0,0,0.45)"
+            />
+            <rect x="66" y="65" width="16" height="85" fill="rgba(0,0,0,0.5)" />
+            <rect
+              x="92"
+              y="38"
+              width="28"
+              height="112"
+              fill="rgba(0,0,0,0.4)"
+            />
+            <rect
+              x="130"
+              y="58"
+              width="22"
+              height="92"
+              fill="rgba(0,0,0,0.45)"
+            />
+            <rect
+              x="162"
+              y="46"
+              width="38"
+              height="104"
+              fill="rgba(0,0,0,0.4)"
+            />
+            <line
+              x1="0"
+              y1="140"
+              x2="200"
+              y2="130"
+              stroke="rgba(251,191,36,0.5)"
+              stroke-width="1.5"
+            />
+          </svg>
+        </div>
+        <div class="press-card wide city">
+          <svg
+            class="city-bg"
+            viewBox="0 0 400 110"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient id="pg2" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#f59e0b" />
+                <stop offset="50%" stop-color="#ef4444" />
+                <stop offset="100%" stop-color="#7c3aed" />
+              </linearGradient>
+            </defs>
+            <rect width="400" height="110" fill="url(#pg2)" />
+            <rect x="0" y="55" width="18" height="55" fill="rgba(0,0,0,0.35)" />
+            <rect
+              x="25"
+              y="38"
+              width="24"
+              height="72"
+              fill="rgba(0,0,0,0.30)"
+            />
+            <rect
+              x="58"
+              y="50"
+              width="16"
+              height="60"
+              fill="rgba(0,0,0,0.35)"
+            />
+            <rect
+              x="84"
+              y="28"
+              width="30"
+              height="82"
+              fill="rgba(0,0,0,0.28)"
+            />
+            <rect
+              x="157"
+              y="22"
+              width="36"
+              height="88"
+              fill="rgba(0,0,0,0.26)"
+            />
+            <rect
+              x="204"
+              y="42"
+              width="26"
+              height="68"
+              fill="rgba(0,0,0,0.30)"
+            />
+            <rect
+              x="270"
+              y="35"
+              width="28"
+              height="75"
+              fill="rgba(0,0,0,0.28)"
+            />
+            <rect
+              x="342"
+              y="38"
+              width="58"
+              height="72"
+              fill="rgba(0,0,0,0.35)"
+            />
+            <line
+              x1="0"
+              y1="100"
+              x2="400"
+              y2="90"
+              stroke="rgba(251,191,36,0.5)"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <div class="partners-section reveal">
+      <div class="partners-grid">
+        <div class="partner-logo" style="font-style: italic; font-weight: 300">
+          lenovo
+        </div>
+        <div class="partner-logo" style="font-style: italic">CiTRiX</div>
+        <div class="partner-logo" style="font-weight: 800">GitHub</div>
+        <div class="partner-logo" style="gap: 5px">
+          <div
+            style="
+              width: 20px;
+              height: 20px;
+              border-radius: 50%;
+              background: #e53e3e;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 8px;
+              color: white;
+              font-weight: 900;
+            "
+          >
+            n
+          </div>
+          napster
+        </div>
+        <div class="partner-logo" style="font-weight: 600; letter-spacing: 0">
+          Microsoft
+        </div>
+        <div class="partner-logo" style="gap: 4px">
+          <div
+            style="
+              width: 18px;
+              height: 18px;
+              border: 2px solid currentColor;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 8px;
+              font-weight: 900;
+            "
+          >
+            N
+          </div>
+          NETDEVO
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section class="contact-section reveal" id="contact">
+      <div class="contact-label"><div class="lbl">CONTACT</div></div>
+      <div class="contact-info">
+        <div style="margin-bottom: 24px">
+          <h4>Support</h4>
+          <div class="contact-item">
+            <div class="ico">☎</div>
+            <span>+62 XXX XXXX XXXX</span>
+          </div>
+          <div class="contact-item">
+            <div class="ico">✉</div>
+            <span>avddigitalsolution@gmail.com</span>
+          </div>
+        </div>
+        <div style="margin-bottom: 24px">
+          <h4>Alamat</h4>
+          <div class="contact-item">
+            <div class="ico">📍</div>
+            <span
+              >Jl. Raya Plered - Cirebon, Pilangsari,<br />Kec. Kedawung,
+              Kabupaten Cirebon,<br />Jawa Barat</span
+            >
+          </div>
+          <div class="contact-item">
+            <div class="ico">🕐</div>
+            <span>Buka · Tutup pukul 19.00</span>
+          </div>
+        </div>
+        <div class="btn-group">
+          <span class="btn-text">Contact us</span>
+          <button class="btn-circle">→</button>
+        </div>
+      </div>
+      <div class="contact-map">
+        <iframe
+          src="https://maps.google.com/maps?q=Cctv+Laptop+AvD+Digital+Solution+Jl+Raya+Plered+Pilangsari+Kedawung+Cirebon+Jawa+Barat&output=embed&z=16"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Lokasi Cctv, Laptop AvD Digital Solution"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <a class="logo" href="#"
+        ><div class="logo-icon"></div>
+        create</a
+      >
+      <ul class="footer-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#press">Press</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="social-links">
+        <a href="#">▶</a><a href="#">G+</a><a href="#">𝕏</a><a href="#">f</a>
+      </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
